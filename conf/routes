@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET        /                   @controllers.Application.index
+GET        /app                @controllers.Application.index
+GET        /echo               @controllers.Application.echo
+GET        /show               @controllers.Application.show(age: Int)
+GET        /xml                @controllers.Application.xmlResult
+GET        /html               @controllers.Application.html
+GET        /futureHello        @controllers.Application.futureHello
+GET        /letsView           @controllers.Application.letsView

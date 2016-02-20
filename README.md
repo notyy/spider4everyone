@@ -1,2 +1,1 @@
-# spider4everyone
-a internet spider framework
+an internet spider framework written in scala.
